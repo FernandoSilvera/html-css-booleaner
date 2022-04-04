@@ -1,9 +1,11 @@
 body {
   margin: 0px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 28px;
 }
 
 header {
-  background-color: rgb(0, 204, 255);
+  background-color: rgb(0, 166, 255);
   background-image: url("../img/pattern.png");
   height: 180px;
 }
@@ -13,12 +15,74 @@ article {
   margin-right: 5px; 
 }
 
+h1 {
+  font-size: 80px;
+  margin-top: 45px;
+  margin-bottom: 0px;
+}
+
+div {
+  color: grey;
+  font-size: 40px;
+}
+
+div footer {
+  font-size: 60%;
+}
+
 figure {
-  margin: 0px;
+  margin: 45px 0px;
+}
+
+figcaption {
+  font-size: 0.7em;
+}
+
+p {
+  margin: 45px 0px;
+}
+
+ul {
+  margin: 45px 0px;
+  padding: 0px 25px;
+}
+
+table {
+  border-collapse: collapse;
+  text-align: left;
+}
+
+thead{
+  background-color: rgb(0, 157, 255);
+  color: white;
 }
 
 #logo-booleaner {
   height: 100px;
   margin-top: 65px;
   margin-left: 10px;
+}
+
+#tim-1 {
+  width: 52%;
+}
+
+#tim-2 {
+  width: 44.5%;
+}
+
+#large-column {
+  width: 50%;
+}
+
+.highlight {
+  background-color: yellow;
+}
+
+.blue-text {
+  color:rgb(0, 166, 255);
+}
+
+.bg-azure {
+  background-color: rgb(162, 219, 254);
 }
